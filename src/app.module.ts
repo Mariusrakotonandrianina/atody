@@ -14,7 +14,7 @@ import { AuthModule } from './modules/auth/auth.module';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      envFilePath: 'C:\\Users\\Administrator\\Documents\\atody\\.env',
+      envFilePath: "C:\\Users\\NY AVO\\atody\\.env",
       validationSchema: Joi.object({
         PORT: Joi.number().default(3000), // Convertit automatiquement en number
         DATABASE_PORT: Joi.number().default(5432), // Convertit automatiquement en number
