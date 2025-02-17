@@ -1,5 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, BeforeInsert } from "typeorm";
-import * as bcrypt from 'bcryptjs'; 
+import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity()
 export class User {
@@ -18,5 +17,4 @@ export class User {
     @Column({ type: 'varchar', nullable: true })
     googleId: string | null;
     
-
 }
